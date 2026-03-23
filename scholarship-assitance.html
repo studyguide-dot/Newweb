@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scholarship Assistance | BrightWay Education Consultancy</title>
+<meta name="description" content="BrightWay Education helps students find and apply for scholarships, providing guidance on eligibility, application process, essay writing, and maximizing chances of success.">
+<meta name="keywords" content="scholarship assistance, scholarship guidance, student funding, application support, BrightWay Education">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* GLOBAL STYLES */
+body { font-family: 'Poppins', sans-serif; margin: 0; background: #f0f4f8; color: #1f2937; line-height: 1.7; }
+* { box-sizing: border-box; }
+a { text-decoration: none; transition: all 0.3s ease; }
+h1, h2, h3 { margin-bottom: 15px; }
+ul { padding-left: 20px; list-style-type: disc; margin-bottom: 20px; }
+ul li { margin-bottom: 10px; font-size: 0.95rem; }
+.container { max-width: 1200px; margin: auto; padding: 60px 20px; }
+
+/* HERO */
+header.hero { 
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); 
+    color: white; 
+    text-align: center; 
+    padding: 160px 20px 100px; 
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+header.hero h1 { font-size: 3rem; margin-bottom: 20px; font-weight: 700; }
+header.hero p { max-width: 700px; margin: auto; font-size: 1.2rem; line-height: 1.6; }
+header.hero .cta-button { 
+    margin-top: 30px; 
+    display: inline-block; 
+    background: #ff7f50; 
+    color: white; 
+    padding: 16px 40px; 
+    border-radius: 50px; 
+    font-weight: 600; 
+}
+header.hero .cta-button:hover { background: #ff6347; }
+
+/* INFO HIGHLIGHT */
+.highlight { background: #ff7f50; color: white; padding: 60px 30px; border-radius: 20px; text-align: center; margin-bottom: 60px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);}
+.highlight h2 { font-size: 2rem; font-weight: 700; margin-bottom: 15px; }
+.highlight p { font-size: 1.1rem; line-height: 1.6; }
+
+/* SERVICE SECTION */
+.service-section { display: flex; align-items: center; flex-wrap: wrap; gap: 30px; margin-bottom: 80px; }
+.service-text { flex: 1 1 500px; padding: 10px; }
+.service-image { flex: 1 1 400px; text-align: center; }
+.service-image img { max-width: 100%; border-radius: 25px; box-shadow: 0 15px 30px rgba(0,0,0,0.1); }
+.cta-button { display: inline-block; background: #6a11cb; color: white; padding: 16px 36px; border-radius: 50px; font-weight: 600; margin-top: 20px; }
+.cta-button:hover { background: #2575fc; }
+
+/* STATS / FEATURED BENEFITS */
+.stats-section { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 30px; margin-bottom: 80px; }
+.stat-box { flex: 1 1 250px; background: white; padding: 40px 30px; border-radius: 20px; text-align: center; box-shadow: 0 10px 25px rgba(0,0,0,0.08); transition: transform 0.3s; }
+.stat-box:hover { transform: translateY(-5px); }
+.stat-box h3 { font-size: 2rem; color: #ff7f50; margin-bottom: 10px; font-weight: 700; }
+.stat-box p { font-size: 1rem; font-weight: 500; }
+
+/* PROCESS CARDS */
+.process-section { display: flex; flex-wrap: wrap; gap: 30px; justify-content: space-between; margin-bottom: 80px; }
+.process-card { flex: 1 1 280px; background: #fff; padding: 30px 20px; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); transition: transform 0.3s; text-align: center; }
+.process-card:hover { transform: translateY(-5px); }
+.process-card h3 { font-size: 1.5rem; color: #2575fc; margin-bottom: 15px; }
+.process-card p { font-size: 1rem; line-height: 1.6; }
+
+/* ICONS IN PROCESS CARDS */
+.process-card i { font-size: 2.5rem; color: #ff7f50; margin-bottom: 15px; }
+
+/* FOOTER */
+.footer { background: #1f2937; color: white; text-align: center; padding: 40px 20px; font-size: 0.95rem; }
+
+/* RESPONSIVE */
+@media(max-width:768px){
+    header.hero h1 { font-size: 2.2rem; } 
+    header.hero p { font-size: 1rem; } 
+    .service-section { flex-direction: column; } 
+    .service-text, .service-image { flex: 1 1 100%; text-align: center; }
+    .stats-section, .process-section { flex-direction: column; }
+    .stat-box, .process-card { flex: 1 1 100%; }
+}
+</style>
+<!-- Load font-awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+<h1>Win Scholarships with Confidence</h1>
+<p>BrightWay Education helps students secure scholarships with personalized guidance, essay coaching, and expert application support.</p>
+<a href="#services" class="cta-button">Get Scholarship Assistance</a>
+</header>
+
+<!-- HIGHLIGHT -->
+<section class="container">
+<div class="highlight">
+<h2>Why Students Love BrightWay</h2>
+<p>We make the scholarship process easy, helping students find opportunities, craft strong applications, and achieve funding success for their education.</p>
+</div>
+</section>
+
+<!-- SERVICE DETAILS -->
+<section id="services" class="container">
+
+<div class="service-section">
+<div class="service-text">
+<h2>Comprehensive Scholarship Support</h2>
+<p>Our experts guide students through every step of the scholarship journey to increase success and reduce stress.</p>
+<ul>
+<li><strong>Scholarship Discovery:</strong> Personalized research to find scholarships matching your profile.</li>
+<li><strong>Eligibility Guidance:</strong> Ensure you meet requirements and deadlines for all opportunities.</li>
+<li><strong>Application Help:</strong> Support with forms, essays, statements, and letters of recommendation.</li>
+<li><strong>Essay Coaching:</strong> Craft essays that stand out to scholarship committees.</li>
+<li><strong>Submission & Follow-up:</strong> Track and submit applications accurately on time.</li>
+</ul>
+<a href="contact.html" class="cta-button">Apply for Scholarships</a>
+</div>
+<div class="service-image">
+<img src="https://via.placeholder.com/500x350.png?text=Scholarship+Assistance" alt="Scholarship Assistance">
+</div>
+</div>
+
+<div class="service-section" style="flex-direction: row-reverse;">
+<div class="service-text">
+<h2>Step-by-Step Scholarship Process</h2>
+<ul>
+<li><strong>Consultation:</strong> Understand your academic background and funding needs.</li>
+<li><strong>Shortlisting:</strong> Identify scholarships you qualify for and deadlines.</li>
+<li><strong>Application Assistance:</strong> Help with essays, forms, and recommendation letters.</li>
+<li><strong>Review & Submission:</strong> Ensure your application is flawless and submitted on time.</li>
+<li><strong>Follow-up:</strong> Track applications until results are announced.</li>
+</ul>
+<a href="contact.html" class="cta-button">Start Your Journey</a>
+</div>
+<div class="service-image">
+<img src="https://via.placeholder.com/500x350.png?text=Scholarship+Process" alt="Scholarship Process">
+</div>
+</div>
+
+<!-- FEATURED STATS -->
+<section class="container stats-section">
+<div class="stat-box">
+<h3>500+</h3>
+<p>Scholarships Available</p>
+</div>
+<div class="stat-box">
+<h3>95%</h3>
+<p>Application Success Rate</p>
+</div>
+<div class="stat-box">
+<h3>500+</h3>
+<p>Students Assisted</p>
+</div>
+<div class="stat-box">
+<h3>5+</h3>
+<p>Years of Expertise</p>
+</div>
+</section>
+
+<!-- PROCESS CARDS -->
+<section class="container process-section">
+<div class="process-card">
+<i class="fa-solid fa-user-check"></i>
+<h3>Step 1: Consultation</h3>
+<p>We understand your profile, academic achievements, and scholarship needs to create a personalized plan.</p>
+</div>
+<div class="process-card">
+<i class="fa-solid fa-magnifying-glass"></i>
+<h3>Step 2: Shortlisting</h3>
+<p>Identify scholarships that match your qualifications, eligibility, and deadlines.</p>
+</div>
+<div class="process-card">
+<i class="fa-solid fa-pencil"></i>
+<h3>Step 3: Application Support</h3>
+<p>Guidance for essays, forms, and recommendation letters to build a strong application.</p>
+</div>
+<div class="process-card">
+<i class="fa-solid fa-paper-plane"></i>
+<h3>Step 4: Submission & Follow-up</h3>
+<p>Careful review, submission, and tracking to maximize chances of scholarship success.</p>
+</div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="container">
+<div class="highlight">
+<h2>Secure Your Scholarship Today</h2>
+<p>Contact our experts to identify the best opportunities, prepare strong applications, and fund your education successfully.</p>
+<a href="contact.html" class="cta-button">Contact Us Now</a>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+<p>© 2026 BrightWay Education Consultancy | Trusted by Students Nationwide</p>
+</footer>
+
+</body>
+</html>

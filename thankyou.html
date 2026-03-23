@@ -1,0 +1,108 @@
+Thankyou
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Thank You | Brightway Education</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#f5f7fc;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.box{
+background:white;
+padding:40px 30px;
+border-radius:12px;
+box-shadow:0 8px 30px rgba(0,0,0,0.1);
+text-align:center;
+max-width:400px;
+width:90%;
+}
+
+.icon{
+font-size:50px;
+color:#0d6efd; /* matches website theme */
+margin-bottom:15px;
+}
+
+h1{
+color:#0d6efd;
+margin-bottom:10px;
+}
+
+p{
+color:#555;
+font-size:15px;
+margin:8px 0;
+}
+
+a{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#0d6efd;
+color:white;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+}
+
+a:hover{
+background:#084db3;
+}
+ê
+.name{
+color:#0d6efd;
+font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<!-- 🎓 ICON REPLACES TICK -->
+<div class="icon">🎓</div>
+
+<h1>Thank You!</h1>
+
+<p id="welcomeText">Your enquiry has been submitted successfully.</p>
+
+<p>Our team will contact you shortly.</p>
+
+<p><strong>Brightway Education</strong></p>
+
+<a href="index.html">Back to Home</a>
+
+</div>
+
+<script>
+
+// GET NAME FROM URL
+const params = new URLSearchParams(window.location.search);
+const name = params.get("name");
+
+// SHOW NAME
+if(name){
+document.getElementById("welcomeText").innerHTML =
+"Thank you, <span class='name'>" + name + "</span>! Your enquiry has been submitted successfully.";
+}
+
+</script>
+
+</body>
+
+</html>
